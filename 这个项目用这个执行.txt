@@ -1,0 +1,2 @@
+cd ./tools/ && PORT=8434 sh olla
+ma_start.sh --port=8434

@@ -1,0 +1,16 @@
+# .vscode/preview.yml
+autoOpen: false
+apps:
+  - port: 8434 # 应用的端口
+    run: sh ollama_start.sh # 应用的启动命令
+    root: ./tools/ # 应用的启动目录
+    name: ollama # 应用名称
+    autoOpen: false
+    autoPreview: false # 检测到端口后是否自动查看web预览
+
+  # - port: 3000 # 应用的端口
+  #   run: sh start_web.sh # 应用的启动命令
+  #   root: ./tools/ # 应用的启动目录
+  #   name: ollama_web # 应用名称
+  #   autoOpen: true  # 启动工作区时自动打开预览
+  #   autoPreview: false # 检测到端口后是否自动查看web预览
